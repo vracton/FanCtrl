@@ -39,4 +39,33 @@ FanCtrl is an adapter/cover for the [Lutron Maestro Fan Control and Light Dimmer
 - https://franklinempire.com/en/macl-lfq-bl-4620-macllfqbl.html#:~:text=4%2D11/16%20in%20H%20x%202%2D15/16%20in%20W%20x%201%2D9/16%20in%20D
 
 
-Approx Time Spent: **1 hour**
+Approx. Time Spent: **1 hour**
+
+# 7/05/2025
+## New Reasearch
+Settled on IRLZ44N MOSFETs, MT3608 DC/DC converters, and no resistors/capacitors needed.
+## Schematic
+I started doing work on the schematic. I spent a while trying to make a footprint for a coin battery since it was isn't built in, but ended up putting vias instead (soldering fixes all !)
+![Schematic](images/schemv1.png)
+
+Approx. Time Spent: **2.5 hour**
+
+# 7/18/2025
+
+Side note: Undercity was really fun :), but i think i lost the water bottle....
+
+Anyways:
+## Schematic & PCB
+After finishing the schematic, I measured the light switch at my house and started making the PCB. However, when I finished and decided to check another light switch, I realized I had measured too far past the rim of the switch and my PCB was too big. So, I had to clean up all the edges and rearranged most everything in case something like that came up again.
+![Schematic](images/schem.png)
+![PCB](images/pcb.png)
+
+# 7/30/2025 & 7/31/2025
+Approx. Time Spent: **3.25 hour**
+
+Today, I finished up the CAD and wrote the README.md + finished up JOURNAL.md. The CAD didn't have any issues and was pretty smooth sailing. I'm sure that'll change when I get it and realized I did something obviosuly wrong though.
+![Top](images/cad_top.png)
+![Cover](images/cad_cover.png)
+![Full](images/cad_full.png)
+
+Approx. Time Spent: **2.5 hours**

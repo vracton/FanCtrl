@@ -57,6 +57,7 @@ FanCtrl/
 
 
 ## Pictures
+![CAD](images/cad.png)
 ![Schematic](images/schem.png)
 ![PCB](images/pcb.png)
 
