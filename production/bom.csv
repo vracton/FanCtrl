@@ -1,0 +1,12 @@
+count,item,price,link
+1,PCB,38.42,JLCPCB
+1,ESP32-C3,3.37,https://www.aliexpress.us/item/3256808882566983.html
+2,IRLZ44N MOSFETs,2.59,https://www.aliexpress.us/item/3256807952109860.html
+2,CR2032 Coin Cell Batteries,4.99,https://www.amazon.com/Procter-Gamble-DURDL2032B4PK-Duracell-Lithium/dp/B009108SGS/
+2,CR2032 Battery Holder,2.34,https://www.aliexpress.us/item/3256807747963704.html
+2,Solenoid,3.30,https://www.aliexpress.us/item/3256809098511002.html
+2,MT3608 DC/DC Step Up Converter,1.39,https://www.aliexpress.us/item/3256808096223695.html
+1,Case,Shipping (~5),Printing Legion
+4,Heatset Inserts,2.47,https://www.aliexpress.us/item/3256808480358197.html
+4,Screws M3x16mm,1.96,https://www.aliexpress.us/item/3256807797167765.html
+,total,62.40,

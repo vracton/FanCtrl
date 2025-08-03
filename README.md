@@ -29,6 +29,7 @@ FanCtrl/
     ├── FanCtrtl_Baseplate.stl    
     ├── FanCtrl_Cover.stl     
     └── gerber.zip         
+    └── bom.csv
 ```
 
 ## Assembly
