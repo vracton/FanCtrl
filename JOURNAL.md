@@ -57,15 +57,22 @@ Side note: Undercity was really fun :), but i think i lost the water bottle....
 Anyways:
 ## Schematic & PCB
 After finishing the schematic, I measured the light switch at my house and started making the PCB. However, when I finished and decided to check another light switch, I realized I had measured too far past the rim of the switch and my PCB was too big. So, I had to clean up all the edges and rearranged most everything in case something like that came up again.
-![Schematic](images/schem.png)
-![PCB](images/pcb.png)
+![Schematic](images/schemv2.png)
+![PCB](images/pcbv2.png)
+
+Approx. Time Spent: **3.25 hours**
 
 # 7/30/2025 & 7/31/2025
-Approx. Time Spent: **3.25 hour**
-
 Today, I finished up the CAD and wrote the README.md + finished up JOURNAL.md. The CAD didn't have any issues and was pretty smooth sailing. I'm sure that'll change when I get it and realized I did something obviosuly wrong though.
-![Top](images/cad_top.png)
-![Cover](images/cad_cover.png)
-![Full](images/cad_full.png)
+![cad](images/cadv2.png)
 
 Approx. Time Spent: **2.5 hours**
+
+# 08/06/2025
+It seems that there were issues with my Github Repo. So, today, I fixed everything and added all the resistors and diodes that were missing as well as replacing the microcontroller with a new footprint and schematic. Additionally, I got some feedback that I should shrink my PCB which I've done as well as adding some more decor to the CAD.
+
+![alt text](images/schem.png)
+![alt text](images/pcb.png)
+![alt text](images/cad.png)
+
+Approx. Time Spent: **4 hours**

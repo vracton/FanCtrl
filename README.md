@@ -26,9 +26,9 @@ FanCtrl/
 │   ├── FanCtrl.kicad_pro   
 │   ├── FanCtrl.kicad_prl
 └── production/             
-    ├── FanCtrtl_Baseplate.stl    
+    ├── FanCtrl_Baseplate.stl    
     ├── FanCtrl_Cover.stl     
-    └── gerber.zip         
+    ├── gerber.zip         
     └── bom.csv
 ```
 
@@ -36,7 +36,7 @@ FanCtrl/
 
 1. Solder all components according to the schematic
 2. Flash `main.ino` to the microcontroller
-3. 3D print the case files from `production/FanCtrtl_Baseplate.stl ` and `production/FanCtrl_Cover.stl`
+3. 3D print the case files from `production/FanCtrl_Baseplate.stl ` and `production/FanCtrl_Cover.stl`
 4. Install the PCB into the case
 5. Secure the top case with heatset inserts and screws
 
@@ -55,10 +55,11 @@ FanCtrl/
 | Heatset Inserts | 4 | M3x5mx4mm |
 | Screws | 4 | M3x16mm |
 | Soldering Iron | 1 | For Assembly |
-
+| 220 ohm Resistors | 2 
 
 ## Pictures
 ![CAD](images/cad.png)
+![CAD Top](images/cad_top.png)
 ![Schematic](images/schem.png)
 ![PCB](images/pcb.png)
 

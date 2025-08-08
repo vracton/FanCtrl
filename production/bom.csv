@@ -1,6 +1,6 @@
-count,item,price,link
+count,item,price,description
 1,PCB,38.42,JLCPCB
-1,ESP32-C3,3.37,https://www.aliexpress.us/item/3256808882566983.html
+1,ESP32-C3,9.80,https://www.amazon.com/Espressif-SP32-C3-DevKitM-1-N4X-Development-Board/dp/B0DHS5D9QR
 2,IRLZ44N MOSFETs,2.59,https://www.aliexpress.us/item/3256807952109860.html
 2,CR2032 Coin Cell Batteries,4.99,https://www.amazon.com/Procter-Gamble-DURDL2032B4PK-Duracell-Lithium/dp/B009108SGS/
 2,CR2032 Battery Holder,2.34,https://www.aliexpress.us/item/3256807747963704.html
@@ -9,4 +9,8 @@ count,item,price,link
 1,Case,Shipping (~5),Printing Legion
 4,Heatset Inserts,2.47,https://www.aliexpress.us/item/3256808480358197.html
 4,Screws M3x16mm,1.96,https://www.aliexpress.us/item/3256807797167765.html
-,total,62.40,
+2,220 ohm Resistors,3.36,https://www.aliexpress.us/item/3256802805589540.html
+2,10k ohm Resistors,3.36,https://www.aliexpress.us/item/3256802805589540.html
+2,1N4007 Diodes,1.74,https://www.aliexpress.us/item/3256804776085463.html
+
+,total,80.42,"Note: Prices are normal prices (not sale or offer ones), so it may be lower"

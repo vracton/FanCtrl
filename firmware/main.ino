@@ -6,15 +6,17 @@ char auth[] = "Your_Blynk_Auth_Token";
 char ssid[] = "Your_SSID";
 char pass[] = "Your_Password";
 
-int solenoid1Pin = 4;
-int solenoid2Pin = 19;
+int solenoid1Pin = 1;
+int solenoid2Pin = 10;
+
+bool light_state = false;
+bool fan_state = false;
 
 void setup() {
   Serial.begin(115200);
   pinMode(solenoid1Pin, OUTPUT);
   pinMode(solenoid2Pin, OUTPUT);
   
-  // Initialize both solenoids to OFF state
   digitalWrite(solenoid1Pin, LOW);
   digitalWrite(solenoid2Pin, LOW);
   
@@ -29,11 +31,16 @@ BLYNK_WRITE(V1) {
   int pinValue = param.asInt();
   
   if (pinValue == 1) {
-    digitalWrite(solenoid1Pin, HIGH); 
-    Serial.println("Solenoid 1 ON");
-  } else {
+    digitalWrite(solenoid1Pin, HIGH);
+    delay(100);
     digitalWrite(solenoid1Pin, LOW);
-    Serial.println("Solenoid 1 OFF");
+    
+    light_state = !light_state;
+    if (light_state) {
+      Serial.println("light on");
+    } else {
+      Serial.println("light off");
+    }
   }
 }
 
@@ -42,9 +49,14 @@ BLYNK_WRITE(V2) {
   
   if (pinValue == 1) {
     digitalWrite(solenoid2Pin, HIGH);
-    Serial.println("Solenoid 2 ON");
-  } else {
+    delay(100);
     digitalWrite(solenoid2Pin, LOW);
-    Serial.println("Solenoid 2 OFF");
+    
+    fan_state = !fan_state;
+    if (fan_state) {
+      Serial.println("fan on");
+    } else {
+      Serial.println("fan off");
+    }
   }
 }
